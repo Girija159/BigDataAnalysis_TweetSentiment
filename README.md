@@ -1,7 +1,7 @@
-#Project of Sentiment Analysis for the course of Big Data Analysis of the Department of Computer Engineering of Modena and Reggio Emilia.#
+**Project of Sentiment Analysis**
 
 
-##Library used in the project##
+**Library used in the project**
 
 
 
@@ -24,9 +24,9 @@ Download the followings modules:
 - Wordnet_ic
 - All the modules in models
 
-##Project usage##
+**Project usage**
 
-###Tweet###
+**Tweet**
 
 The script named `ExtractTweet.py` can be used to download tweets in a `csv` file. This script is configurable by this file: `config.json`
 
@@ -49,7 +49,7 @@ The CSV file produced in output can be used as arg of the other three script:
 - `NewTermSentimentInference.py`: This script try to assign a sentiment score to the words that are not present in AFINN-111.txt based on the sentiment score of a group of tweets.
 - `SentiWordnet.py`: This script uses SentiWordNet as vocabulary to try to assign a sentiment score to a tweet. The metrics of the scoring and the annotation process are more complex in this script.
 
-###Document Sentiment Classification###
+**Document Sentiment Classification**
 
 The script is called `DocumentSentimentClassification.py` and implements a simple method for document sentiment classification.
 it possible to set some configuration parameters in the top of Python script:
@@ -59,7 +59,7 @@ it possible to set some configuration parameters in the top of Python script:
 - API_KEY_GOOGLE -> Api Key for Custom Search Api [https://cloud.google.com/console](Google Api Console)
 - USE_GOOGLE -> Enable (True) or Disable (False) the use of the Google Api for Custom Search ( 100 query for day without have to pay )
 
-### ipython ###
+**ipython**
 
 For an interactive example with ipython, go into the folder `BDA_Senti_ipython` and launch the command:
 
